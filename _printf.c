@@ -16,6 +16,8 @@ int _printf(const char *format, ...)
 		{"c", _char},
 		{"s", _string},
 		{"%", _percent},
+		{"d", _integer},
+		{"i", _integer},
 		{NULL, NULL}
 	};
 	va_list argu;

@@ -26,5 +26,6 @@ int _traverser(const char *format, convert list[], va_list argu);
 int _char(va_list);
 int _string(va_list);
 int _percent(va_list);
+int _integer(va_list);
 
 #endif
