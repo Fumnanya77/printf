@@ -26,7 +26,7 @@ int _printf(const char *format, ...)
 		return (-1);
 
 	va_start(argu, format);
-	
+
 	print_ch = _traverser(format, list, argu);
 
 	va_end(argu);

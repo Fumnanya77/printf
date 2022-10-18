@@ -71,11 +71,11 @@ int _decimal(va_list list)
 		i += _putchar('-');
 		n = x * -1;
 	}
-	else 
+	else
 		n = x;
 	for (; (n / j) > 9; )
 		j *= 10;
-	for (;j != 0; )
+	for (; j != 0; )
 	{
 		i += _putchar('0' + (n / j));
 		n %= j;
